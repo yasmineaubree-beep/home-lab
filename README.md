@@ -9,5 +9,15 @@
 <p>
 <h3>Hardware :</h3> M710q Lenovo (tiny)
 <h3>OS:</h3> Debian12, netinst 
-<h3>Hostname:</h3> commune
-<h3>Learning goals:</h3> NAS server, getting to know python and docker</p>
+<h3>Hostname:</h3> NAS
+<h3>Learning goals:</h3> NAS server, getting to know python and docker</p><br>
+
+Log 08/04/26: Remote access configuration_SSH<br>
+Current status:<br>
+Attempting to establish an ssh connection from my laptop (lenovo T430) to the NAS server (M710q)<br>
+Server IP: 192.1XX.X.XX<br>
+User: [redacted] user and root<br>
+
+Issue encountered:<br>
+While physical access (keyboard/monitor connected to tinypc) works perfectly with the credentials noted in my notebook, remote connection via SSH is being rejected. <br>
+Error messages: 'Connection closed by 192.XXX.X.XX port 22' and 'permission denied, please try again.'

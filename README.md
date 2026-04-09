@@ -21,3 +21,9 @@ User: [redacted] user and root<br>
 Issue encountered:<br>
 While physical access (keyboard/monitor connected to tinypc) works perfectly with the credentials noted in my notebook, remote connection via SSH is being rejected. <br>
 Error messages: 'Connection closed by 192.XXX.X.XX port 22' and 'permission denied, please try again.'
+
+Solution: Reconfiguring the SSH daemon policy on the host (Debian12), I enabled secure password-authenticated access from my local machine (by removing the hash before the targeted line). The server is now fully operational in headless mode, allowing for decentralized admin and development.
+
+Result : 1st Successful implementation of remote management via SSH.
+yipee!!:P
+(I turned the activity monitor on by putting 'top' in the terminal of my laptop as the first remote command)
